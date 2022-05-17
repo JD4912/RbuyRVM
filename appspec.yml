@@ -14,6 +14,6 @@ hooks:
     - location: scripts/Install_Dependencies.sh
 #       timeout: 300
       runas: root
-  ApplicationStart:
-    - location: scripts/ApplicationStart.sh
-      runas: root
+#   ApplicationStart:
+#     - location: scripts/ApplicationStart.sh
+#       runas: root
