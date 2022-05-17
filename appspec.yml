@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 
-files:
-        - source: /
-          destination: /Newruby
+# files:
+#         - source: /
+#           destination: /Newruby
 
 hooks:
   BeforeInstall:
