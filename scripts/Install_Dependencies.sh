@@ -6,7 +6,7 @@ source /etc/profile.d/rvm.sh
 rvm requirements
 rvm install 2.7.2
 gem install rails -v 6.5.1
-cd /Newruby
-bundle install
-rails server -b 0.0.0.0
+# cd /Newruby
+# bundle install
+# rails server -b 0.0.0.0
 
