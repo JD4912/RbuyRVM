@@ -9,11 +9,11 @@ hooks:
   BeforeInstall:
     - location: scripts/BeforeInstall.sh
       timeout: 1800
-      runas: ubuntu
+      runas: root
   AfterInstall:
     - location: scripts/Install_Dependencies.sh
 #       timeout: 300
-      runas: ubuntu
+      runas: root
 #   ApplicationStart:
 #     - location: scripts/ApplicationStart.sh
 #       runas: root
