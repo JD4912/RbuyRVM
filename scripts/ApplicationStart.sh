@@ -1,2 +1,2 @@
-sh /scripts/script.sh
+source ./script.sh
 
