@@ -8,4 +8,4 @@ rvm install 2.7.2
 gem install rails -v 6.5.1
 cd /Newruby
 bundle install
-rails server -b 0.0.0.0 -d
+rails server -b 0.0.0.0 -d -e test
