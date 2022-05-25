@@ -12,5 +12,5 @@ hooks:
       runas: root
   ApplicationStart:
     - location: scripts/ApplicationStart.sh
-      runas: root
+      runas: root 
 
